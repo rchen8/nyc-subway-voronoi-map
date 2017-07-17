@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flask Boilerplate</title>
+    <title>Voronoi Map of NYC Subway Stations</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Flask Boilerplate</h1>
+    <div id="map"></div>
+    
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ api_key }}&callback=initMap"></script>
   </body>
 </html>
