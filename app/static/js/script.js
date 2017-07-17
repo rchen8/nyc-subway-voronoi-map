@@ -1,4 +1,4 @@
-function initMap() {
+function renderMap() {
   $.get("/map_center", data => {
     const map = new google.maps.Map($("#map")[0], {
       zoom: 13,
